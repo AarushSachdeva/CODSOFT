@@ -41,7 +41,7 @@ match choice:
          else:
            print("Floor division by 0 is not valid operation")
   case 6:
-     choice=int(input("Press 1 for a**b\nPress 2 for b**a"\n))
+     choice=int(input("Press 1 for a**b\nPress 2 for b**a\n"))
      match choice:
        case 1:
          print("The exponential of a to b is",a**b)
